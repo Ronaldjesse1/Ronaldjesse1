@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<link href="style.css" rel="stylesheet">
+<script type='text/javascript' src='map.js'></script>
+</head>
+<body>
+<div class="grid-container">
+    <div class="header"><img src="one-piece-logo-title.png" class="title"> </div>
+	<div class="menu">
+        <form id="formLocation" onchange="javascript:onChangeLocation()">
+        <!-- <input type="text">input search<br> -->
+        <br>
+        <br>
+		<input type="radio" id="World_Government" name="ronald" value="World_Government" checked>World_Government
+		<label for="World_Government"></label><br>
+		<input type="radio" id="Zou" name="ronald" value="Zou">Zou
+		<label for="Zou"></label><br>
+		<input type="radio" id="Marijyoa" name="ronald" value="Marijyoa">Marijyoa
+		<label for="Marijyoa"></label><br>
+		<input type="radio" id="Wholecake_Island" name="ronald" value="Wholecake_Island">Wholecake_Island
+		<label for="Wholecake_Island"></label><br>
+		<input type="radio" id="Wano" name="ronald" value="Wano">Wano
+		<label for="Wano"></label><br>
+		<input type="radio" id="Dressrosa" name="ronald" value="Dressrosa">Dressrosa
+		<label for="Dressrosa"></label><br>
+		<input type="radio" id="Laughtale" name="ronald" value="Laughtale">Laughtale
+		<label for="Laughtale"></label><br>
+		<input type="radio" id="Zoro" name="ronald" value="Zoro">Zoro
+		<label for="Zoro"></label><br>
+		<input type="radio" id="Fish_island" name="ronald" value="Fish_island">Fish Island
+		<label for="Fish_island"></label><br>
+		<input type="radio" id="Shanks" name="ronald" value="Shanks">Shanks
+		<label for="Shanks"></label><br> 
+		<input type="radio" id="One_Piece" name="ronald" value="One_Piece">One Piece
+		<label for="One_Piece"></label><br> 
+		<input type="radio" id="Fuyujima" name="ronald" value="Fuyujima">Fuyujima
+		<label for="Fuyujima"></label><br> 
+		<input type="radio" id="Skypiea" name="ronald" value="Skypiea">Skypiea
+		<label for="Skypiea"></label><br> 
+		<input type="radio" id="Enies_Lobby" name="ronald" value="Enies_Lobby">Enies Lobby
+		<label for="Enies_Lobby"></label><br> 
+		<input type="radio" id="Alabasta" name="ronald" value="Alabasta">Alabasta
+		<label for="Alabasta"></label><br> 
+		<input type="radio" id="Florian_Triangle" name="ronald" value="Florian_Triangle">Florian Triangle
+		<label for="Florian_Triangle"></label><br> 
+
+        <!-- <center><input type="submit" class="button" value="Submit"></center> -->
+      </form>
+    </div>
+   
+	<div class = "map" id="onePieceMap">
+        <canvas id="jsCanvas" class="canvas" width="850" height="550" backgroundColor='#ffffff'></canvas>
+		<!-- <svg id="World_Government" height="100%" width="100%">
+			<circle cx="975" cy="260" r="5" fill="red" />
+		</svg>
+				<svg id="Zou" height="100%" width="100%">
+			<circle cx="" cy="260" r="5" fill="red" />
+		</svg> -->
+	</div>
+</div>
+<!-- <div id="console"></div> -->
+</body>
+</html>
